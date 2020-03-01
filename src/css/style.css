@@ -1,0 +1,82 @@
+body{
+  font-size:16px;
+}
+
+.header {
+     height: 80px;
+     position: fixed;
+     left: 0;
+     margin-top:0px;
+     top: 0;
+     right: 0;
+     transition: all 0.5s;
+     z-index: 997;
+     line-height:80px;
+     background: #634A8F;
+   }
+
+   ul{
+     list-style: none;
+     display: inline-block;
+   }
+   li{
+      display: inline-block;
+      margin-left:5px;
+
+   }
+   li:hover{
+     color:#f1f1f1;
+   }
+   a{
+     color:#ffffff;
+     padding: 0 8px 10px 8px;
+     text-decoration: none;
+     font-size: 1.5rem;
+   }
+   a:hover{
+      color:#f1f1f1;
+   }
+hr{
+    position: relative;
+    margin-top: 80px;
+}
+
+.homePageBanners{
+  height:400px;
+  margin-top:24px;
+  position:relative;
+}
+.homePageColor0{
+  background:blue;
+}
+.homePageColor1{
+  background:red;
+}
+.homePageColor2{
+  background:green;
+}
+.homePageColor3{
+  background:yellow;
+}
+.pokoImage{
+  position: absolute;
+top: 50%;
+left: 50%;
+width: 50px;
+height: 50px;
+margin-top: -25px;
+margin-left: -25px;
+}
+
+
+.lc1{
+  position:absolute;
+  left:10px;
+  float:left;
+}
+
+.lc2{
+  position:absolute;
+  right:10px;
+  float:right;
+}
